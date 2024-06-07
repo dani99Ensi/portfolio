@@ -1,13 +1,13 @@
 /* TODO:
   Fill out this component according to the README.
-*/
+*   max-width: 420px;*/
 
 .project-card {
   display: flex;
   flex-direction: column;
   padding: 24px;
   width: 100%;
-  max-width: 420px;
+
   row-gap: 12px;
 }
 
@@ -35,7 +35,7 @@
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
 }
 
 .project-card a {

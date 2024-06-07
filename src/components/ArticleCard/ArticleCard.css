@@ -36,7 +36,7 @@
 .article-card a {
   font-size: 16px;
   font-weight: bold;
-  color: #14B8A6;
+  color: blue;
   display: flex;
   column-gap: 9px;
 }

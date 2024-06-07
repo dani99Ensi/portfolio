@@ -6,7 +6,13 @@ import ProjectsHeader from "@/components/ProjectsHeader/ProjectsHeader.jsx";
 import ProjectCard from "@/components/ProjectCard/ProjectCard.jsx";
 
 //----------------images-------------------
-import Logo from "@/components/ProjectCard/Logo.svg";
+//import Logo from "@/components/ProjectCard/Logo.svg";
+import spotify from "@/components/WorkWidget/WorkLogo/otherSpotify.jpg";
+import microsoft from "@/components/WorkWidget/WorkLogo/microsoft.png";
+import facebook from "@/components/WorkWidget/WorkLogo/Facebook.png";
+import apple from "@/components/WorkWidget/WorkLogo/apple.jpg";
+import google from "@/components/WorkWidget/WorkLogo/google.jpg";
+import amazon from "@/components/WorkWidget/WorkLogo/amazon.jpg";
 
 export const metadata = {
   title: "Portfolio - Projects",
@@ -51,10 +57,44 @@ export default function Projects() {
       url: "/uses",
     },
   ];
+  //-----------------------------------------------------------------------
+  let anotherArray = [
+    {
+      title: "Facebook",
+      content: "Developed a platform for real-time data processing and visualization using Apache Kafka and Spark, enhancing data-driven decision-making on user engagement.",
+      image: facebook,
+    },
+    {
+      title: "Apple",
+      content: "Created an AI chatbot for Apple's website and app, leveraging NLP and machine learning to provide instant, accurate customer support.",
+      image: apple,
+    },
+    {
+      title: "Spotify",
+      content: "Designed a recommendation system using collaborative filtering and deep learning, improving personalized music suggestions and user engagement.",
+      image: spotify,
+    },
+    {
+      title: "Google",
+      content: "Developed a secure mobile banking app with biometric authentication and real-time transaction tracking for Android and iOS platforms.",
+      image: google,
+    },
+    {
+      title: "Amazon",
+      content: "Created a scalable inventory management system using AWS services, providing real-time updates and predictive analytics for supply chain optimization.",
+      image: amazon,
+    },
+    {
+      title: "Microsoft",
+      content: "Enhanced an e-commerce platform's performance by implementing caching strategies and database optimizations, leading to faster page loads and higher conversion rates.",
+      image: microsoft,
+    },
+  ];
+  //-----------------------------------------------------------------------
   return (
     <div className="bg-slate-50 dark:bg-black">
       <div className="sm-ml-mr-80 ">
-        <div className="bg-white dark:bg-zinc-900">
+        <div className="bg-gradient-to-r from-white via-blue-200 to-white dark:bg-zinc-900 dark:bg-none">
           <div className="flex w-full items-center justify-between">
             <div> </div>
             <div>
@@ -70,12 +110,12 @@ export default function Projects() {
             <ProjectsHeader items={itemsArray} />
           </div>
           <div className=" pb-10 mx-14 sm:grid grid-cols-3 inside-144">
-            {[1, 2, 3, 4, 5, 6].map((item, index) => (
+            {anotherArray.map((item, index) => (
               <div key={index}>
                 <ProjectCard
-                  name={"Company"}
-                  logo={Logo}
-                  content={"Creating technology to empower civilians to explore space on their own terms."}
+                  name={item.title}
+                  logo={item.image}
+                  content={item.content}
                   link={"https://www.ensign.edu/"}
                 />
               </div>

@@ -8,13 +8,13 @@ const ProfileHeader = ({ imageUrl, name, bio, linkedinUrl,items }) => {
   // const defaultImageUrl = "/src/components/ProfileHeader/ProfileIcon/kirby.png";
   return (
     <div className=" profile-header sm:max-w-2xl">
-      <div className="w-full flex justify-start">
+      <div className="flex justify-center">
         <Image
-          className="rounded-full mb-5 object-cover border-3 border-white"
+          className="rounded-md mb-5 hover:scale-125"
           src={imageUrl || ifNotSimp}
           alt="Image Not Found"
-          width={64}
-          height={64}
+          width={150}
+          height={150}
         />
       </div>
 

@@ -9,7 +9,7 @@ import ThemeSwitcher from "@/components/ThemeSwitcher/ThemeSwitcher.jsx";
 import DropDown from "@/components/DropDown/DropDown.jsx";
 //ThemeSwitcher
 //-----------------Images------------------------------------
-import myPhoto from "@/components/ProfileHeader/ProfileIcon/mySelf.png";
+import myPhoto from "@/components/ProfileHeader/ProfileIcon/Myself.jpeg";
 import slack from "../components/WorkWidget/WorkLogo/slack.png";
 import spotify from "../components/WorkWidget/WorkLogo/spotify.png";
 import microsoft from "../components/WorkWidget/WorkLogo/microsoft.png";
@@ -29,26 +29,24 @@ export const metadata = {
 export default function Home() {
   const articles = [
     {
-      date: "December 25, 2023",
-      title: "Lorem ipsum dolor sit amet",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...",
-      link: "https://medium.com/the-research-nest/everything-you-need-to-know-about-react-ab24da4275ea",
+      date: "May 10, 2022",
+      title: "Top Developer Award - Tech Innovators Conference 2022",
+      content:"This award recognized my ability to deliver innovative and effective solutions to complex problems. Winning this award pushed me to continually seek out cutting-edge technologies and methodologies, improving my problem-solving skills and keeping me at the forefront of software development trends.",
+      link: "https://www.crn.com/rankings-and-lists/ti2022",
     },
 
     {
-      date: "December 25, 2023",
-      title: "Lorem ipsum dolor sit amet",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...",
-      link: "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
+      date: "August 15, 2021",
+      title: "Best Software Solution - International Software Engineering Expo 2021",
+      content: "This accolade was awarded for a software solution I developed that significantly enhanced efficiency and user experience. Receiving this recognition validated my approach to user-centered design and performance optimization, encouraging me to further refine my development processes and strive for excellence in every project.",
+      link: "https://techbeacon.com/app-dev-testing/best-software-engineering-conferences-2021",
     },
     {
-      date: "December 25, 2023",
-      title: "Lorem ipsum dolor sit amet",
+      date: " November 25, 2020",
+      title: "Excellence in Coding - Global Developer Summit 2020",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...",
-      link: "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
+        "This award celebrated my exceptional coding skills and ability to write clean, efficient, and maintainable code. Winning this award emphasized the importance of code quality and best practices in software engineering, motivating me to mentor others and promote high standards within my teams.",
+      link: "https://gradle.com/developer-productivity-engineering/handbook/?utm_campaign=fy24q1-retargeting-rsa-us-dpe-handbook&utm_medium=ad-cpc&utm_source=google&utm_content=developer-experience-phrase&source=adwords&medium=cpc&campaignid=20899789106&adgroupid=158073254558&keyword=developer%20experience&matchtype=b&network=g&device=c&utm_lsd=paid-media&gad_source=1&gclid=CjwKCAjw34qzBhBmEiwAOUQcF8C4wvDTb6mXyKsQN4B98R2bG4LG25b8VISM_ws2BhiiaA_FCLPjYhoCAO8QAvD_BwE",
     },
   ];
   //-----------------------------------------------------------------------------------------
@@ -134,7 +132,7 @@ export default function Home() {
   return (
     <div className="bg-slate-50 dark:bg-black">
       <div className="sm-ml-mr-80 ">
-        <div className="bg-white dark:bg-zinc-900">
+        <div className="bg-gradient-to-r from-white via-lime-200 to-white dark:bg-zinc-900 dark:bg-none">
           {/*w-fill flex justify-center h-20 pt-6 sm:grid grid-cols-3 inside-144
           items-center--> worked vertical alignment*/}
           <div className="flex w-full items-center justify-between">
@@ -152,7 +150,7 @@ export default function Home() {
           <div className="left-inside-144">
             <ProfileHeader
               name="Software engineer, father, and believer"
-              bio="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.."
+              bio="As a software engineer, I specialize in developing and maintaining software applications. My expertise lies in writing clean, efficient code and collaborating with cross-functional teams to deliver high-quality software solutions. I have experience with various programming languages and frameworks, and I am constantly learning and adapting to new technologies. Problem-solving is my passion, and I enjoy the challenge of finding innovative solutions to complex technical issues. Whether working on front-end interfaces or back-end systems, I am committed to creating user-friendly and reliable software that meets the needs of its users."
               linkedinUrl="https://www.linkedin.com/in/daniel-figueroa-perez-465a39304/"
               imageUrl={myPhoto}
               items={FollowLinks}

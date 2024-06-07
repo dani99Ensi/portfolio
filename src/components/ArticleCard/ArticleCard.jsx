@@ -23,7 +23,7 @@ const ArticleCard = ({ date, title, content, link }) => {
 
       <p data-testid={"articleCardContent"} className="dark:text-zinc-400">{content}</p>
       <a data-testid={"articleCardLink"} href={link}>
-        Read article <Image className="fill-blue-500" src={vector} alt="arrow Icon" width={6.5} height={20} />
+        Read article <Image className="fill-blue" src={vector} alt="arrow Icon" width={6.5} height={20} />
       </a>
     </article>
   );

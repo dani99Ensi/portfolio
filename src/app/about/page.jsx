@@ -8,7 +8,7 @@ import DropDown from "@/components/DropDown/DropDown.jsx";
 
 //----------------images-------------------
 //import myPhoto from "../components/ProfileHeader/ProfileIcon/mySelf.jpeg";
-import womenPhoto from "/public/img.jpg";
+import MeInPhoto from "/public/img.jpeg";
 import X from "@/components/LinksAbout/LinksImages/XV.svg";
 import GitHub from "@/components/LinksAbout/LinksImages/GitHub.svg";
 import LinkedIn from "@/components/LinksAbout/LinksImages/LinkedinV.svg";
@@ -30,23 +30,25 @@ export default function About() {
   //-----------------------------------------------------------------------
   const itemsArray = [
     {
-      title: "I’m Jane. I live in New York City, where I develop the future.",
+      title: "About Daniel - Award-Winning Software Engineer",
       content: [
         {
+          inside:"Daniel is an accomplished software engineer with a proven track record of delivering innovative and high-impact solutions. With a career spanning over a decade, Daniel has earned multiple prestigious awards that highlight his expertise and dedication to the field."  },
+        {
           inside:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "Among his accolades, Daniel was honored with the Top Developer Award at the Tech Innovators Conference 2022, which recognized his exceptional problem-solving abilities and commitment to staying ahead of technological advancements. This award has fueled Daniel's passion for exploring new technologies and implementing cutting-edge solutions.",
         },
         {
           inside:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "In 2021, Daniel received the Best Software Solution award at the International Software Engineering Expo, a testament to his skill in creating efficient and user-friendly software. This recognition has driven Daniel to continually refine his development processes and prioritize user-centered design in all projects.",
         },
         {
           inside:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "The Excellence in Coding award from the Global Developer Summit 2020 further underscores Daniel's talent for writing clean, efficient, and maintainable code. This accolade not only highlights Daniel's technical proficiency but also his dedication to mentoring and promoting best practices within his teams.",
         },
         {
           inside:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "Throughout his career, Daniel has demonstrated a commitment to excellence and continuous improvement, making him a standout professional in the software engineering community.",
         },
       ],
     },
@@ -97,7 +99,7 @@ export default function About() {
     <div>
       <div className="bg-slate-50 dark:bg-black">
         <div className="sm-ml-mr-80 ">
-          <div className="bg-white dark:bg-zinc-900">
+          <div className="bg-gradient-to-r from-white via-orange-300 to-white dark:bg-zinc-900 dark:bg-none">
             <div className="flex w-full items-center justify-between">
               <div> </div>
               <div>
@@ -117,7 +119,7 @@ export default function About() {
 
                 <div className="order-1 sm:order-2 ">
                   <Image
-                    src={womenPhoto}
+                    src={MeInPhoto}
                     alt="Women Icon"
                     style={{ borderTopLeftRadius: "3rem", borderTopRightRadius: "3rem" }}
                     className="w-full px-5 "
