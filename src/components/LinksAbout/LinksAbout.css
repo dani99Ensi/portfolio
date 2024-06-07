@@ -1,0 +1,13 @@
+.auxiliar {
+}
+
+
+.auxiliar a {
+  display: flex;
+  column-gap: 24px;
+  padding: 20px 24px;
+  justify-content: left;
+  align-items: center;
+  height: 32px;
+}
+

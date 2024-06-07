@@ -1,0 +1,46 @@
+/* TODO:
+  Fill out this component according to the README.
+*/
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 20px;
+  border-radius: 6px;
+}
+
+.article-card .article-card-header time {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #a1a1aa;
+  border-left: #e4e4e7 4px solid;
+  padding-left: 8px;
+}
+
+.article-card .article-card-header h2 {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+.article-card p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0px 0px 16px 0px;
+
+
+}
+
+.article-card a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #14B8A6;
+  display: flex;
+  column-gap: 9px;
+}
+
+.article-card a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+/* TODO:
+  Fill out this component according to the README.
+*/
+
+.uses-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.uses-section__content {
+  display: flex;
+  flex-direction: column;
+
+}
+{/*  flex-direction: row;    display: flex; */}
+
+.uses-section__group {
+  justify-content: start;
+  padding-left: 20px;
+
+}
+
+.uses-section__group h2 {
+  padding: 0px 0px 30px 0px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 300px;
+}
+
+.uses-section__group-content {
+  padding: 0px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+}

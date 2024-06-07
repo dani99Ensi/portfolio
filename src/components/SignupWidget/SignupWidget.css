@@ -1,0 +1,61 @@
+/* TODO:
+  Fill out this component according to the README.
+*/
+
+.signup-widget {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin: 0px 20px;
+  row-gap: 12px;
+  border-radius: 20px;
+}
+
+.signup-widget h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0px;
+   display:flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.signup-widget p {
+  font-size: 16px;
+  color: #777;
+}
+
+.input-row {
+  display: flex;
+  column-gap: 16px;
+}
+
+.signup-widget input {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.signup-widget button {
+  padding: 2px 24px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #000000;
+  color: white;
+  line-height: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.signup-widget button:hover {
+  background-color: #45a049;
+}
+
+.signup-widget button:disabled {
+  background-color: #45a049;
+  cursor: not-allowed;
+}

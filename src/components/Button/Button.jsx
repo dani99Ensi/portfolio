@@ -54,3 +54,4 @@ Button.defaultProps = {
   handleClick: undefined,
   children: undefined,
 };
+export default Button;

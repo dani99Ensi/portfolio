@@ -1,0 +1,64 @@
+/* TODO:
+  Fill out this component according to the README.
+*/
+
+.dropdown {
+  border-radius: 30px;
+  border: 1px solid #d4d4d8;
+  position: relative;
+}
+
+.dropdown-btn {
+  border-color: solid #17171A0D;
+  color: #272729;
+  padding: 7px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+  column-gap: 10px;
+}
+{/*  position: absolute;*/}
+{/*These (position abosulute and left) saved mylife*/}
+.dropdown-container {
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  top: 110%;
+  left: -120%;
+}
+
+
+.dropdown-item {
+  color: black;
+  padding: 12px 0px 12px 8px;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dark .dropdown-item:hover {
+  background-color: black;
+}
+
+.dropdown-divider {
+  border-bottom: 1px solid;
+}
+.left-end {
+  left: 0;
+}
+
+.dropdown-icon {
+  fill: #272729;
+}
+
+.dark .dropdown-icon {
+  fill: white;
+}

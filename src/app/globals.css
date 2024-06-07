@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sm-ml-mr-80 {
+  @apply sm:ml-20 sm:mr-20;
+}
+.inside-144 {
+  @apply sm:ml-144 sm:mr-144;
+}
+.left-inside-144 {
+  @apply sm:ml-144;
+}
