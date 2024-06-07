@@ -24,7 +24,7 @@ export default function Uses() {
       content: [
         {
           inside:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "In my daily workflow, I rely on a combination of powerful tools and gadgets to enhance my productivity and efficiency. For development, I use Visual Studio Code for its versatility and extensive customization options, Docker for containerized applications, and GitHub for version control and collaboration. My workstation is centered around an Apple MacBook Pro (M1 Max) for its unmatched performance, paired with a Dell UltraSharp 27 Monitor for a crisp and expansive display. I enjoy the tactile feel of the Keychron K6 Wireless Mechanical Keyboard and the precision of the Logitech MX Master 3 mouse. To stay organized, I use Notion for comprehensive note-taking and project management, Todoist for task tracking, and RescueTime for time management insights. Communication and collaboration are seamless with Slack. For design tasks, Whimsical helps me quickly create wireframes and flowcharts, while Figma allows for collaborative interface design and prototyping. These tools and gadgets collectively support my efforts to innovate and create impactful solutions in the tech world.",
         },
       ],
     },
@@ -36,29 +36,29 @@ export default function Uses() {
       groupName: "Workstation",
       items: [
         {
-          title: "Item Name",
+          title: "Apple MacBook Pro (M1 Max)",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.",
+            "My go-to device for development, featuring incredible performance and battery life. Ideal for heavy coding sessions and multitasking.",
         },
         {
-          title: "Item Name",
+          title: "Dell UltraSharp 27 Monitor (U2720Q)",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.",
+            "A 27-inch 4K monitor that provides crisp visuals and ample screen real estate for coding, designing, and multitasking.",
         },
         {
-          title: "Item Name",
+          title: "Keychron K6 Wireless Mechanical Keyboard",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.",
+            "A compact mechanical keyboard with customizable RGB backlighting, providing a satisfying typing experience for long coding sessions.",
         },
         {
-          title: "Item Name",
+          title: "Logitech MX Master 3",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.",
+            "An ergonomic mouse with customizable buttons and excellent precision, perfect for navigating through code and design tools.",
         },
         {
-          title: "Item Name",
+          title: "Twelve South Curve Stand",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.",
+            "A sleek and sturdy laptop stand that elevates my MacBook Pro to eye level, promoting better posture and reducing neck strain.",
         },
       ],
     },
@@ -66,19 +66,19 @@ export default function Uses() {
       groupName: "Development",
       items: [
         {
-          title: "Item Name",
+          title: "Visual Studio Code",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "A lightweight yet powerful code editor with extensive extensions and customization options, making it perfect for any development environment.",
         },
         {
-          title: "Item Name",
+          title: "Docker",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "Essential for creating, deploying, and running applications in containers, ensuring consistency across development and production environments.",
         },
         {
-          title: "Item Name",
+          title: "GitHub",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "A platform for version control and collaboration, where I manage all my code repositories and collaborate with other developers.",
         },
       ],
     },
@@ -88,12 +88,12 @@ export default function Uses() {
         {
           title: "Whimsical",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "A tool for creating wireframes, flowcharts, mind maps, and sticky notes, helping to visualize and organize design ideas quickly and efficiently.",
         },
         {
           title: "Figma",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "A collaborative interface design tool that allows for real-time collaboration, prototyping, and seamless design handoff to developers.",
         },
       ],
     },
@@ -101,25 +101,25 @@ export default function Uses() {
       groupName: "Productivity",
       items: [
         {
-          title: "Item Name",
+          title: "Notion",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "An all-in-one workspace for notes, tasks, and project management, helping me stay organized and productive throughout my projects.",
         },
         {
-          title: "Item Name",
+          title: "Todoist",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "A task management app that helps me keep track of my to-do lists and deadlines, ensuring nothing falls through the cracks.",
         },
 
         {
-          title: "Item Name",
+          title: "RescueTime",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "A time management tool that tracks my activities and provides insights into how I spend my time, helping me stay focused and productive.",
         },
         {
-          title: "Item Name",
+          title: "Slack",
           description:
-            "lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
+            "A communication platform that keeps me connected with my team, allowing for quick and efficient collaboration through channels and direct messages.",
         },
       ],
     },
@@ -147,7 +147,7 @@ export default function Uses() {
   return (
     <div className="bg-slate-50 dark:bg-black">
       <div className="sm-ml-mr-80 ">
-        <div className="bg-white dark:bg-zinc-900">
+        <div className="bg-gradient-to-r from-white via-violet-300 to-white dark:bg-zinc-900 dark:bg-none">
           <div className="flex w-full items-center justify-between">
             <div> </div>
             <div>

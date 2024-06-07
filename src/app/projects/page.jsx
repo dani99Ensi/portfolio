@@ -33,8 +33,7 @@ export default function Projects() {
       content: [
         {
           inside:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..",
-        },
+      "I’ve always been driven by the desire to innovate and create impactful solutions in the tech world. My journey includes developing a real-time data analytics platform at Facebook, creating an AI-powered customer support chatbot at Apple, and designing a personalized music recommendation system at Spotify. At Google, I developed a secure mobile banking application, while at Amazon, I created a scalable cloud-based inventory management system. Additionally, I enhanced an e-commerce platform's performance at Microsoft. These projects showcase my commitment to leveraging technology to solve complex problems and improve user experiences."  },
       ],
     },
   ];

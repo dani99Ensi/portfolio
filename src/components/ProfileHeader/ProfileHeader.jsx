@@ -10,11 +10,11 @@ const ProfileHeader = ({ imageUrl, name, bio, linkedinUrl,items }) => {
     <div className=" profile-header sm:max-w-2xl">
       <div className="flex justify-center">
         <Image
-          className="rounded-md mb-5 hover:scale-125"
+          className="rounded-3xl mb-5 hover:scale-125 pb-4 pt-4"
           src={imageUrl || ifNotSimp}
           alt="Image Not Found"
-          width={150}
-          height={150}
+          width={200}
+          height={200}
         />
       </div>
 

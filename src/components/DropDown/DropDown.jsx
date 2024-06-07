@@ -7,7 +7,8 @@ const Dropdown = ({ onPreview, onEdit, onClone, onDelete }) => {
   let [isOpen, isOpenState] = useState(false);
 
   return (
-    <div data-testid="dropdown relative" className="dropdown sm:hidden shadow-lg shadow-indigo-500/40">
+    <div data-testid="dropdown relative" className="dropdown border-double border-4 border-bg-violet-200 hover:border-dotted bg-white dark:bg-neutral-800
+    sm:hidden shadow-lg shadow-indigo-500/40">
       <button
         data-testid="menuButton"
         className="dropdown-btn dark:text-white"

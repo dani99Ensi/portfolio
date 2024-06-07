@@ -22,7 +22,7 @@ function Navbar({
   }, [pathname]);*/
   //const router = useRouter();  <DropDown className="sm:hidden" />
   return (
-    <nav data-testid="nav" className="hidden sm:flex navbar h-10 w-72 items-center justify-center shadow-lg
+    <nav data-testid="nav" className="hidden sm:flex navbar h-10 w-72 items-center justify-center shadow-lg border-double border-4 border-bg-violet-200 hover:border-dotted
      shadow-indigo-500/40 dark:bg-neutral-800  ">
       <ul data-testid="ul">
         {options.map((item, index) => (
