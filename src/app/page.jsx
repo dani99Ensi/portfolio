@@ -26,6 +26,13 @@ export const metadata = {
   description: "Home page of my portfolio.",
 };
 
+export function generateStaticParams() {
+  return ['/'].map((path) => ({
+    params: { slug: path },
+  }));
+}
+
+
 export default function Home() {
   const articles = [
     {

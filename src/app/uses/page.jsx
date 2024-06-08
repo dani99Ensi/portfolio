@@ -10,6 +10,12 @@ export const metadata = {
   description: "The uses page of my portfolio.",
 };
 
+export function generateStaticParams() {
+  return ['/uses'].map((path) => ({
+    params: { slug: path },
+  }));
+}
+
 export default function Uses() {
   let myArray = [
     { path: "/", label: "Home" },

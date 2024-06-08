@@ -20,6 +20,12 @@ export const metadata = {
   description: "The about page of my portfolio.",
 };
 
+export function generateStaticParams() {
+  return ['/about'].map((path) => ({
+    params: { slug: path },
+  }));
+}
+
 export default function About() {
   let myArray = [
     { path: "/", label: "Home" },
