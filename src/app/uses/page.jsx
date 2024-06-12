@@ -11,13 +11,13 @@ export const metadata = {
 };
 
 export function generateStaticParams() {
-  return ['/uses'].map((path) => ({
+  return ["/uses"].map((path) => ({
     params: { slug: path },
   }));
 }
 
 export default function Uses() {
-//------------------------------------------------------------------------------------------------
+  //------------------------------------------------------------------------------------------------
   const itemsArray = [
     {
       title: "Software I use, gadgets I love, and other things I recommend.",
@@ -125,24 +125,24 @@ export default function Uses() {
     },
   ];
   //----------------------------------------------------------------------------------------------------
-    const links = [
-      {
-        title: "Home",
-        url: "/",
-      },
-      {
-        title: "About",
-        url: "portfolio/about",
-      },
-      {
-        title: "Projects",
-        url: "portfolio/projects",
-      },
-      {
-        title: "Uses",
-        url: "portfolio/uses",
-      },
-    ];
+  const links = [
+    {
+      title: "Home",
+      url: "/",
+    },
+    {
+      title: "About",
+      url: "portfolio/about",
+    },
+    {
+      title: "Projects",
+      url: "portfolio/projects",
+    },
+    {
+      title: "Uses",
+      url: "portfolio/uses",
+    },
+  ];
 
   return (
     <div className="bg-slate-50 dark:bg-black">

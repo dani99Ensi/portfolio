@@ -26,24 +26,24 @@ export function generateStaticParams() {
 }
 
 export default function Projects() {
-  let myArray = [
-      {
-        title: "Home",
-        url: "/",
-      },
-      {
-        title: "About",
-        url: "portfolio/about",
-      },
-      {
-        title: "Projects",
-        url: "portfolio/projects",
-      },
-      {
-        title: "Uses",
-        url: "portfolio/uses",
-      },
-    ];
+  const links = [
+    {
+      title: "Home",
+      url: "/",
+    },
+    {
+      title: "About",
+      url: "portfolio/about",
+    },
+    {
+      title: "Projects",
+      url: "portfolio/projects",
+    },
+    {
+      title: "Uses",
+      url: "portfolio/uses",
+    },
+  ];
   //-----------------------------------------------------------------------
   const itemsArray = [
     {
@@ -96,7 +96,7 @@ export default function Projects() {
           <div className="flex w-full items-center justify-between">
             <div> </div>
             <div>
-              <Navbar options={myArray} />
+              <Navbar options={links} />
             </div>
             <div className="sm:pr-32 flex items-center">
               <DropDown />
