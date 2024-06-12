@@ -109,15 +109,15 @@ export default function Home() {
     },
     {
       title: "About",
-      url: "/about",
+      url: "portfolio/about",
     },
     {
       title: "Projects",
-      url: "/projects",
+      url: "portfolio/projects",
     },
     {
       title: "Uses",
-      url: "/uses",
+      url: "portfolio/uses",
     },
   ];
   //----------------------------------------------------------------------------------------------------

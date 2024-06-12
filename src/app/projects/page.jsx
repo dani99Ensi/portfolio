@@ -27,11 +27,23 @@ export function generateStaticParams() {
 
 export default function Projects() {
   let myArray = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/projects", label: "Projects" },
-    { path: "/uses", label: "Uses" },
-  ];
+      {
+        title: "Home",
+        url: "/",
+      },
+      {
+        title: "About",
+        url: "portfolio/about",
+      },
+      {
+        title: "Projects",
+        url: "portfolio/projects",
+      },
+      {
+        title: "Uses",
+        url: "portfolio/uses",
+      },
+    ];
   //-----------------------------------------------------------------------
   const itemsArray = [
     {
