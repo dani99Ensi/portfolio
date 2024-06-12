@@ -57,12 +57,6 @@ export default function Home() {
     },
   ];
   //-----------------------------------------------------------------------------------------
-  let myArray = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/projects", label: "Projects" },
-    { path: "/uses", label: "Uses" },
-  ];
   //----------------------------------------------------------------------------------------------------
   const myExperience = [
     {
@@ -145,7 +139,7 @@ export default function Home() {
           <div className="flex w-full items-center justify-between">
             <div> </div>
             <div>
-              <Navbar options={myArray} />
+              <Navbar options={links} />
             </div>
             <div className="sm:pr-32 flex items-center">
               <DropDown />

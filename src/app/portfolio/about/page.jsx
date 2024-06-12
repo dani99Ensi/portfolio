@@ -27,12 +27,6 @@ export function generateStaticParams() {
 }
 
 export default function About() {
-  let myArray = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/projects", label: "Projects" },
-    { path: "/uses", label: "Uses" },
-  ];
   //-----------------------------------------------------------------------
   const itemsArray = [
     {
@@ -109,7 +103,7 @@ export default function About() {
             <div className="flex w-full items-center justify-between">
               <div> </div>
               <div>
-                <Navbar options={myArray} />
+                <Navbar options={links} />
               </div>
               <div className="sm:pr-32 flex items-center">
                 <DropDown />

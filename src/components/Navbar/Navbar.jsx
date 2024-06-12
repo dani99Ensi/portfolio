@@ -5,24 +5,7 @@ import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';*/
 
 function Navbar({
-  options = [
-    {
-      title: "Home",
-      url: "/",
-    },
-    {
-      title: "About",
-      url: "portfolio/about",
-    },
-    {
-      title: "Projects",
-      url: "portfolio/projects",
-    },
-    {
-      title: "Uses",
-      url: "portfolio/uses",
-    },
-  ],
+  options
 }) {
 /*
   const pathname = usePathname(); // Use the usePathname hook
@@ -41,8 +24,8 @@ function Navbar({
         {options.map((item, index) => (
           <li key={index} data-testid={'li' + index}>
             <a data-testid={'a' + index}
-            className="link dark:text-white" href={item.path} >
-                {item.label}
+            className="link dark:text-white" href={item.url} >
+                {item.title}
             </a>
           </li>
         ))}

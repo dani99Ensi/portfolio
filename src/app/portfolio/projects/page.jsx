@@ -56,25 +56,6 @@ export default function Projects() {
     },
   ];
   //-----------------------------------------------------------------------
-  const links = [
-    {
-      title: "Home",
-      url: "/",
-    },
-    {
-      title: "About",
-      url: "/about",
-    },
-    {
-      title: "Projects",
-      url: "/projects",
-    },
-    {
-      title: "Uses",
-      url: "/uses",
-    },
-  ];
-  //-----------------------------------------------------------------------
   let anotherArray = [
     {
       title: "Facebook",
@@ -139,7 +120,7 @@ export default function Projects() {
             ))}
           </div>
           <div className="inside-144 h-44 pb-8">
-            <Footer links={links} />
+            <Footer links={myArray} />
           </div>
         </div>
       </div>
