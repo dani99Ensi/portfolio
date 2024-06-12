@@ -99,7 +99,7 @@ export default function Home() {
   const links = [
     {
       title: "Home",
-      url: "/",
+      url: "/portfolio",
     },
     {
       title: "About",

@@ -29,7 +29,7 @@ export default function Projects() {
   const links = [
     {
       title: "Home",
-      url: "/",
+      url: "/portfolio",
     },
     {
       title: "About",

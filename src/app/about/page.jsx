@@ -57,7 +57,7 @@ export default function About() {
   const links = [
     {
       title: "Home",
-      url: "/",
+      url: "/portfolio",
     },
     {
       title: "About",
