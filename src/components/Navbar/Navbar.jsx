@@ -6,9 +6,22 @@ import { useEffect, useState } from 'react';*/
 
 function Navbar({
   options = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/contact', label: 'Contact' },
+    {
+      title: "Home",
+      url: "/",
+    },
+    {
+      title: "About",
+      url: "portfolio/about",
+    },
+    {
+      title: "Projects",
+      url: "portfolio/projects",
+    },
+    {
+      title: "Uses",
+      url: "portfolio/uses",
+    },
   ],
 }) {
 /*
