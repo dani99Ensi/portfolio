@@ -132,15 +132,15 @@ export default function Uses() {
     },
     {
       title: "About",
-      url: "portfolio/about",
+      url: "/portfolio/about",
     },
     {
       title: "Projects",
-      url: "portfolio/projects",
+      url: "/portfolio/projects",
     },
     {
       title: "Uses",
-      url: "portfolio/uses",
+      url: "/portfolio/uses",
     },
   ];
 
